@@ -16,3 +16,20 @@
     opacity: 1;
   }
 }
+.new {
+  margin: 20px auto 0;
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(40, 46, 40, 0.507);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  .submit{
+    width: 80px;
+    color: red;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+}
