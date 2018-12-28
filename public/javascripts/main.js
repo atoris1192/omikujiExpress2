@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // const random = Math.floor(Math.random()*items.length)
     // btn.textContent = items[random]
 
-    const url = 'http://localhost:3000/api/random'
+    // const url = 'http://localhost:3000/api/random'
+    const url = 'https://polar-stream-29744.herokuapp.com/api/random'
     fetch(url)
       .then(res => {
         return res.json()
